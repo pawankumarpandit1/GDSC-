@@ -1,0 +1,43 @@
+@keyframes example1{
+    0%{
+        left: -200px;
+        opacity: 0;
+
+    }
+    100%{
+        left: 200px;
+        opacity: 1;
+    }
+}
+.box{
+    left: 200px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(106, 0, 255);
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    justify-content:  center;
+    align-items:  center;
+    color: rgb(245, 220, 245);
+    font-family: sans-serif;
+     animation: example1 3s ease 1s;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 1s;
+}
+
+p::before{
+    content: "!!!";
+}
+
+.box:nth-child(2){
+    background-color: blueviolet;
+}
+.box:nth-child(3){
+    background-color: bisque;
+}
+

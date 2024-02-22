@@ -1,0 +1,12 @@
+.box{
+    height: 300px;
+    width: 100%;
+background-color: aquamarine;
+    border-radius: 10px;
+}
+p{
+    width: 300px;
+    margin-left: 30px;
+    text-align: center;
+}
+
